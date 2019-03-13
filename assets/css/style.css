@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/*
+ You may not change or alter any portion of this comment or credits
+ of supporting developers from this source code or any supporting source code
+ which is considered copyrighted (c) material of the original comment or credit authors.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+*/
+
+/**
+ * wgRealEstate module for xoops
+ *
+ * @copyright      module for xoops
+ * @license        GPL 2.0 or later
+ * @package        wgrealestate
+ * @since          1.0
+ * @min_xoops      2.5.7
+ * @author         Wedega - Email:<webmaster@wedega.com> - Website:<https://wedega.com>
+ * @version        $Id: 1.0 style.css 1 Sun 2018-01-07 21:18:26Z XOOPS Project (www.xoops.org) $
+ */
+
+ 
+.wgre-row {
+
+}
+
+.wgre-divider {
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/* images */
+.wgre-img-state {
+    max-width:32px;
+}
+
+.wgre-img-obj {
+
+}
+
+.wgre-img-main {
+   border:1px solid #ccc; 
+}
+
+/* objects */
+.wgre-obj-title {
+    font-size:150% !important;
+	color:#aa0022;
+}
+
+.wgre-dealtype {
+	border: 1px solid #aa0022; /* rgba(0, 0, 0, 0); */
+    border-radius: 4px;
+    font-size:80%;
+    margin-right:5px;
+    padding: 3px 6px 3px 6px;
+    text-align: center;
+    vertical-align: middle;
+	color:#aa0022;
+    background-color:#ffffff;
+}
+.wgre-obj-index-costvalue, .wgre-obj-index-attvalue {
+	font-size:150%
+}
+
+.wgre-obj-attmisc-ul {
+	margin:0;
+	padding:0;
+}
+
+.wgre-obj-attmisc-li {
+	border:1px solid #ccc;
+	padding:3px 6px;
+	margin-top:2px;
+	margin-right:1px;
+	border-radius: 5px;
+	list-style:none;
+	display:inline-table;
+}
+
+.wgre-obj-link-det {
+	margin-top:50px;
+}
+
+.wgre-obj-header-left {
+	color: #aa0022;
+	font-size:120%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.wgre-obj-header-right {
+	color: #aa0022;
+	font-size:120%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.wgre-obj-detail-row {
+    border-bottom: 1px solid #ccc;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.wgre-obj-detail-left, .wgre-obj-detail-left p {
+    color: #555555;
+	margin:0;
+}
+
+.wgre-obj-detail-left {
+
+}
+
+.wgre-obj-detail-right {
+
+}
+
+.wgre-obj-detail-right p {
+	margin:0;
+}
+
+
+.wgre-obj-detail-header-btn {
+    text-align: right;
+}
+
+.wgre-obj-detail-footer {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.wgre-attcatname {
+	color: #aa0022;
+	font-size:120%;
+}
+
+.wgre-filedownload {
+	padding: 20px 0;
+}
+
+.wgre-img-yes {
+	border:0;
+	width:20px;
+}
+
+.wgre-img-edit {
+    max-width: 200px;
+}
+
+.kwh {
+	margin-top:20px;
+}
+
+.wgre-kwh-img {
+	width:100%;
+}
+
+
+/* buttons */
+.wgre-btn, #submit {
+    -moz-box-sizing: border-box; 
+    background-color: #ffffff;
+    color: #000000;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid #aa0022; /* rgba(0, 0, 0, 0); */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 8px 20px 8px 20px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+} 
+
+.wgre-btn:hover, .wgre-btn:focus, #submit:hover, #submit:focus, .wgre-btn-active {
+    color:#aa0022;
+    background-color:#f1f1f1;
+    border-color:#aa0022;
+} 
+
+/* styles for blocks */
+.wgre-block-highlight {
+	border:1px solid #ccc;
+	font-size: 16px;
+	padding:3px 6px;
+	border-radius: 5px;
+}
+
+.wgre-block-div {
+	margin:5px;
+}
+
+.wgre-block-img {
+	max-height:200px;
+}
+
+.wgre-block-footer {
+	margin-top:5px;
+}
