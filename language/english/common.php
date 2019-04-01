@@ -22,155 +22,155 @@
  */
  
 // General
-define('_CO_WGREALESTATE_FORM_UPLOAD', 'Hochladen Datei');
-define('_CO_WGREALESTATE_FORM_IMAGE_PATH', 'Dateien in %s ');
-define('_CO_WGREALESTATE_FORM_ACTION', 'Aktion');
-define('_CO_WGREALESTATE_FORM_EDIT', 'Bearbeiten');
-define('_CO_WGREALESTATE_FORM_DELETE', 'Löschen');
+define('_CO_WGREALESTATE_FORM_UPLOAD', 'Upload file');
+define('_CO_WGREALESTATE_FORM_IMAGE_PATH', 'Files in %s');
+define('_CO_WGREALESTATE_FORM_ACTION', 'Action');
+define('_CO_WGREALESTATE_FORM_EDIT', 'Edit');
+define('_CO_WGREALESTATE_FORM_DELETE', 'Delete');
 
 define('_CO_WGREALESTATE_TYPE_INFO', 'Info');
-define('_CO_WGREALESTATE_TYPE_VALID', 'Gültig');
+define('_CO_WGREALESTATE_TYPE_VALID', 'Valid');
 define('_CO_WGREALESTATE_ID', 'Id');
-define('_CO_WGREALESTATE_WEIGHT', 'Reihenfolge');
-define('_CO_WGREALESTATE_DATECREATE', 'Erstellt am');
-define('_CO_WGREALESTATE_SUBMITTER', 'Bearbeiter(in)');
-define('_CO_WGREALESTATE_NONE', 'Ohne');
-define('_CO_WGREALESTATE_NOACTION', 'Keine Aktion');
-define('_CO_WGREALESTATE_INDEX_SHOW', 'Auf Indexseite anzeigen');
-define('_CO_WGREALESTATE_INDEX_HEADER', 'Im Hauptbereich anzeigen');
-define('_CO_WGREALESTATE_INDEX_MISC', 'Als Zusatz anzeigen');
+define('_CO_WGREALESTATE_WEIGHT', 'Order');
+define('_CO_WGREALESTATE_DATECREATE', 'Created on');
+define('_CO_WGREALESTATE_SUBMITTER', 'Editor (in)');
+define('_CO_WGREALESTATE_NONE', 'Without');
+define('_CO_WGREALESTATE_NOACTION', 'No action');
+define('_CO_WGREALESTATE_INDEX_SHOW', 'Show on index page');
+define('_CO_WGREALESTATE_INDEX_HEADER', 'Show in main area');
+define('_CO_WGREALESTATE_INDEX_MISC', 'Show as Addition');
 
 define('_CO_WGREALESTATE_DOWNLOAD', 'Download');
 
-// Save/Delete
-define('_CO_WGREALESTATE_FORM_OK', 'Erfolgreich gespeichert');
-define('_CO_WGREALESTATE_FORM_DELETE_OK', 'Erfolgreich gelöscht');
-define('_CO_WGREALESTATE_FORM_SURE_DELETE', "Wollen Sie wirklich löschen: <b><span style='color : Red;'>%s </span></b>");
-define('_CO_WGREALESTATE_FORM_SURE_RENEW', "Wollen Sie wirklich aktualisieren: <b><span style='color : Red;'>%s </span></b>");
+// Save / Delete
+define('_CO_WGREALESTATE_FORM_OK', 'Saved successfully');
+define('_CO_WGREALESTATE_FORM_DELETE_OK', 'Successfully deleted');
+define('_CO_WGREALESTATE_FORM_SURE_DELETE', "Do you really want to delete: <b> <span style = 'color: Red;'>% s </span> </b>");
+define('_CO_WGREALESTATE_FORM_SURE_RENEW', "Are you sure you want to refresh: <b> <span style = 'color: Red;'>% s </span> </b>");
 // Errors
-define('_CO_WGREALESTATE_FORM_DELETE_FAIL1', 'Der Datensatz konnte erfolgreich gelöscht werden, jedoch trat beim Löschen des Bildes ein Fehler auf!');
-define('_CO_WGREALESTATE_ERROR_NO_VALID_OBJID', 'Fehler: Ungültiger Parameter Objekt-ID!');
-define('_CO_WGREALESTATE_ERROR_GEO', 'Fehler bei der Ermittlung der Geo-Koordinaten!');
+define('_CO_WGREALESTATE_FORM_DELETE_FAIL1', 'The record could be deleted successfully, but an error occurred while deleting the picture!');
+define('_CO_WGREALESTATE_ERROR_NO_VALID_OBJID', 'Error: Invalid parameter object ID!');
+define('_CO_WGREALESTATE_ERROR_GEO', 'Errors when determining the geo coordinates!');
 // misc
-define('_CO_WGREALESTATE_NO_PERM', 'Sie haben nicht die Berechtigung, diese Aktion durchzuführen!');
-// attributes add/edit
-define('_CO_WGREALESTATE_ATTRIBUTES_ADD', 'Hinzufügen Objektattribute');
-define('_CO_WGREALESTATE_ATTRIBUTES_EDIT', 'Bearbeiten Objektattribute');
+define('_CO_WGREALESTATE_NO_PERM', 'You do not have permission to perform this action!');
+// attributes add / edit
+define('_CO_WGREALESTATE_ATTRIBUTES_ADD', 'Add Object Attributes');
+define('_CO_WGREALESTATE_ATTRIBUTES_EDIT', 'Edit Object Attributes');
 // cost types
-define('_CO_WGREALESTATE_COST_TYPE', 'Kostenart');
-// cost add/edit
-define('_CO_WGREALESTATE_COST_ADD', 'Hinzufügen Kosten');
-define('_CO_WGREALESTATE_COST_EDIT', 'Bearbeiten Kosten');
+define('_CO_WGREALESTATE_COST_TYPE', 'Cost Type');
+// cost add / edit
+define('_CO_WGREALESTATE_COST_ADD', 'Add Costs');
+define('_CO_WGREALESTATE_COST_EDIT', 'Edit Costs');
 // Elements of cost
-define('_CO_WGREALESTATE_COST_PERC', 'Prozent');
-define('_CO_WGREALESTATE_COST_BASE', 'Berechnungsbasis');
+define('_CO_WGREALESTATE_COST_PERC', 'Percent');
+define('_CO_WGREALESTATE_COST_BASE', 'Calculation Base');
 define('_CO_WGREALESTATE_COST_INFO', 'Info');
-define('_CO_WGREALESTATE_COST_VALUE', 'Wert');
-define('_CO_WGREALESTATE_COST_CALC', 'Berechnen');
-define('_CO_WGREALESTATE_COST_SUM_RENT', 'Summe Mietkosten');
-define('_CO_WGREALESTATE_COST_SUM_SALE', 'Summe Kaufkosten');
-// Object add/edit
-define('_CO_WGREALESTATE_OBJECT_ADD', 'Hinzufügen Objekt');
-define('_CO_WGREALESTATE_OBJECT_EDIT', 'Bearbeiten Objekt');
+define('_CO_WGREALESTATE_COST_VALUE', 'Value');
+define('_CO_WGREALESTATE_COST_CALC', 'Calculate');
+define('_CO_WGREALESTATE_COST_SUM_RENT', 'Total Rental Costs');
+define('_CO_WGREALESTATE_COST_SUM_SALE', 'Total purchase cost');
+// Object add / edit
+define('_CO_WGREALESTATE_OBJECT_ADD', 'Add Object');
+define('_CO_WGREALESTATE_OBJECT_EDIT', 'Edit Object');
 // Elements of Object
-define('_CO_WGREALESTATE_OBJECT', 'Objekt');
-define('_CO_WGREALESTATE_OBJECTS', 'Objekte');
-define('_CO_WGREALESTATE_OBJECT_TITLE', 'Objekttitel');
-define('_CO_WGREALESTATE_OBJECT_CTRY', 'LAND');
-define('_CO_WGREALESTATE_OBJECT_POSTALCODE', 'PLZ');
-define('_CO_WGREALESTATE_OBJECT_CITY', 'Ort');
-define('_CO_WGREALESTATE_OBJECT_ADDRESS', 'Adresse');
+define('_CO_WGREALESTATE_OBJECT', 'Object');
+define('_CO_WGREALESTATE_OBJECTS', 'Objects');
+define('_CO_WGREALESTATE_OBJECT_TITLE', 'Object title');
+define('_CO_WGREALESTATE_OBJECT_CTRY', 'Country');
+define('_CO_WGREALESTATE_OBJECT_POSTALCODE', 'ZIP');
+define('_CO_WGREALESTATE_OBJECT_CITY', 'Location');
+define('_CO_WGREALESTATE_OBJECT_ADDRESS', 'Address');
 define('_CO_WGREALESTATE_OBJECT_GEO', 'Geo-Code');
-define('_CO_WGREALESTATE_OBJECT_GEO_LNG', 'Längengrade');
-define('_CO_WGREALESTATE_OBJECT_GEO_LAT', 'Breitengrad');
+define('_CO_WGREALESTATE_OBJECT_GEO_LNG', 'Longitude');
+define('_CO_WGREALESTATE_OBJECT_GEO_LAT', 'Latitude');
 define('_CO_WGREALESTATE_OBJECT_GEO_PLACEID', 'Geo-Place-ID');
-define('_CO_WGREALESTATE_OBJECT_GEO_SEARCH', 'Geo-Code ermitteln');
-define('_CO_WGREALESTATE_OBJECT_SELLER_ID', 'Verkäufer');
-define('_CO_WGREALESTATE_OBJECT_DESCR', 'Beschreibung');
-define('_CO_WGREALESTATE_OBJECT_INFOS', 'Ausstattung');
-define('_CO_WGREALESTATE_OBJECT_MISC', 'Sonstiges');
-define('_CO_WGREALESTATE_OBJECT_LOCATION', 'Lage');
-define('_CO_WGREALESTATE_OBJECT_STATISTICS', 'Statistische Informationen');
-define('_CO_WGREALESTATE_OBJECT_VIEWS', 'Aufrufe');
-define('_CO_WGREALESTATE_OBJECT_CONTACTS', 'Kontaktaufnahmen');
+define('_CO_WGREALESTATE_OBJECT_GEO_SEARCH', 'Get Geo Code');
+define('_CO_WGREALESTATE_OBJECT_SELLER_ID', 'Salesperson');
+define('_CO_WGREALESTATE_OBJECT_DESCR', 'Description');
+define('_CO_WGREALESTATE_OBJECT_INFOS', 'Equipment');
+define('_CO_WGREALESTATE_OBJECT_MISC', 'Other');
+define('_CO_WGREALESTATE_OBJECT_LOCATION', 'Location');
+define('_CO_WGREALESTATE_OBJECT_STATISTICS', 'Statistical Information');
+define('_CO_WGREALESTATE_OBJECT_VIEWS', 'Views');
+define('_CO_WGREALESTATE_OBJECT_CONTACTS', 'Contact');
 define('_CO_WGREALESTATE_OBJECT_STATE', 'Status');
-define('_CO_WGREALESTATE_OBJECT_DATESTATE', 'Datum Status');
-define('_CO_WGREALESTATE_OBJECT_GEOCOORDS', 'Geo-Koordinaten');
-define('_CO_WGREALESTATE_OBJECT_GEOCOORDS_EDIT', 'Geo-Koordinaten ermitteln');
-define('_CO_WGREALESTATE_OBJECT_GEOCOORDS_AUTO', 'Geo-Koordinaten anhand der angegebenen Orts- und Adressangaben automatisch ermitteln');
-define('_CO_WGREALESTATE_OBJECT_GEOCOORDS_DELETE', 'Derzeitige Koordinaten (%s) löschen');
-// Image add/edit
-define('_CO_WGREALESTATE_IMAGE_ADD', 'Bild hinzufügen');
-define('_CO_WGREALESTATE_IMAGE_EDIT', 'Bilder bearbeiten');
+define('_CO_WGREALESTATE_OBJECT_DATESTATE', 'Date Status');
+define('_CO_WGREALESTATE_OBJECT_GEOCOORDS', 'Geo-Coordinates');
+define('_CO_WGREALESTATE_OBJECT_GEOCOORDS_EDIT', 'Get Geo-coordinates');
+define('_CO_WGREALESTATE_OBJECT_GEOCOORDS_AUTO', 'Automatically detect geo coordinates based on specified location and address information');
+define('_CO_WGREALESTATE_OBJECT_GEOCOORDS_DELETE', 'Delete current coordinates (% s)');
+// image add / edit
+define('_CO_WGREALESTATE_IMAGE_ADD', 'Add image');
+define('_CO_WGREALESTATE_IMAGE_EDIT', 'Edit images');
 // Elements of images
-define('_CO_WGREALESTATE_IMAGES_TITLE', 'Bearbeiten und Hinzufügen von Bildern');
-define('_CO_WGREALESTATE_IMAGES_PLAN_TITLE', 'Pläne und Grundrisse');
-define('_CO_WGREALESTATE_IMAGE', 'Bild');
-define('_CO_WGREALESTATE_IMAGES', 'Bildergalerie');
-define('_CO_WGREALESTATE_IMAGES_GALLERY', 'Zur Bildergalerie');
-define('_CO_WGREALESTATE_IMAGE_TYPE', 'Verwendungsart');
-define('_CO_WGREALESTATE_IMAGE_TITLE', 'Bildtitel');
-define('_CO_WGREALESTATE_IMAGE_INFO', 'Zusätzliche Informationen');
+define('_CO_WGREALESTATE_IMAGES_TITLE', 'Editing and adding images');
+define('_CO_WGREALESTATE_IMAGES_PLAN_TITLE', 'Plans and Floor Plans');
+define('_CO_WGREALESTATE_IMAGE', 'Image');
+define('_CO_WGREALESTATE_IMAGES', 'Image Gallery');
+define('_CO_WGREALESTATE_IMAGES_GALLERY', 'To Image Gallery');
+define('_CO_WGREALESTATE_IMAGE_TYPE', 'Usage Type');
+define('_CO_WGREALESTATE_IMAGE_TITLE', 'Image title');
+define('_CO_WGREALESTATE_IMAGE_INFO', 'Additional Information');
 define('_CO_WGREALESTATE_IMAGE_NAME', 'Name');
-define('_CO_WGREALESTATE_IMAGE_INFOS', 'Zusätzliche Bildinfos');
-define('_CO_WGREALESTATE_IMAGE_FORM_UPLOAD', 'Datei zum Hochladen auswählen');
-define('_CO_WGREALESTATE_IMAGE_DIM', 'Abmessungen');
-define('_CO_WGREALESTATE_IMAGE_SIZE', 'Größe');
-// File add/edit
-define('_CO_WGREALESTATE_FILE_ADD', 'Hinzufügen Dateien');
-define('_CO_WGREALESTATE_FILE_EDIT', 'Bearbeiten Dateien');
+define('_CO_WGREALESTATE_IMAGE_INFOS', 'Additional Image Info');
+define('_CO_WGREALESTATE_IMAGE_FORM_UPLOAD', 'Select file to upload');
+define('_CO_WGREALESTATE_IMAGE_DIM', 'Dimensions');
+define('_CO_WGREALESTATE_IMAGE_SIZE', 'Size');
+// File add / edit
+define('_CO_WGREALESTATE_FILE_ADD', 'Add Files');
+define('_CO_WGREALESTATE_FILE_EDIT', 'Edit Files');
 // Elements of File
-define('_CO_WGREALESTATE_FILES_TITLE', 'Bearbeiten und Hinzufügen von Dateien');
-define('_CO_WGREALESTATE_FILES_PLAN_TITLE', 'Dateien');
-define('_CO_WGREALESTATE_FILE', 'Datei');
-define('_CO_WGREALESTATE_FILES', 'Dateien');
-define('_CO_WGREALESTATE_FILE_TITLE', 'Dateititel');
-define('_CO_WGREALESTATE_FILE_INFO', 'Zusätzliche Informationen');
+define('_CO_WGREALESTATE_FILES_TITLE', 'Edit and add files');
+define('_CO_WGREALESTATE_FILES_PLAN_TITLE', 'Files');
+define('_CO_WGREALESTATE_FILE', 'File');
+define('_CO_WGREALESTATE_FILES', 'Files');
+define('_CO_WGREALESTATE_FILE_TITLE', 'file title');
+define('_CO_WGREALESTATE_FILE_INFO', 'Additional Information');
 define('_CO_WGREALESTATE_FILE_NAME', 'Name');
-define('_CO_WGREALESTATE_FILE_TYPE', 'Dateityp');
-define('_CO_WGREALESTATE_FILE_SIZE', 'Dateigröße');
+define('_CO_WGREALESTATE_FILE_TYPE', 'File type');
+define('_CO_WGREALESTATE_FILE_SIZE', 'File size');
 define('_CO_WGREALESTATE_FILE_LOGO', 'Logo');
-define('_CO_WGREALESTATE_FORM_UPLOAD_FILE_FILES', 'Datei zum Hochladen auswählen');
- 
+define('_CO_WGREALESTATE_FORM_UPLOAD_FILE_FILES', 'Select file to upload');
+
 // Elements of deal types
-define('_CO_WGREALESTATE_DEALTYPE', 'Vermittlungstyp');
-define('_CO_WGREALESTATE_DEALTYPE_RENT',  'Mieten');
-define('_CO_WGREALESTATE_DEALTYPE_SALE',  'Kaufen'); 
-// Elements of Objektkategorie
-define('_CO_WGREALESTATE_OBJCAT_CATEGORY', 'Objektkategorie');
+define('_CO_WGREALESTATE_DEALTYPE', 'Transfer Type');
+define('_CO_WGREALESTATE_DEALTYPE_RENT', 'Rent');
+define('_CO_WGREALESTATE_DEALTYPE_SALE', 'Buy');
+// Elements of object category
+define('_CO_WGREALESTATE_OBJCAT_CATEGORY', 'Object category');
 // Vars for constants
-define('_CO_WGREALESTATE_STATE_NEW', 'Erstellung');
+define('_CO_WGREALESTATE_STATE_NEW', 'Creation');
 define('_CO_WGREALESTATE_STATE_ONLINE', 'Online');
-define('_CO_WGREALESTATE_STATE_ARCHIVE', 'Archiv');
+define('_CO_WGREALESTATE_STATE_ARCHIVE', 'Archive');
 
-define('_CO_WGREALESTATE_IMGCAT_PICTURE', 'Ansichtsbilder');
-define('_CO_WGREALESTATE_IMGCAT_PLAN', 'Pläne');
+define('_CO_WGREALESTATE_IMGCAT_PICTURE', 'Views');
+define('_CO_WGREALESTATE_IMGCAT_PLAN', 'Plans');
 
-define('_CO_WGREALESTATE_ATTR_YN', 'Ja/Nein');
+define('_CO_WGREALESTATE_ATTR_YN', 'Yes / No');
 define('_CO_WGREALESTATE_ATTR_TEXT', 'Textfeld');
-define('_CO_WGREALESTATE_ATTR_TEXTAREA', 'erweitertes Textfeld');
-define('_CO_WGREALESTATE_ATTR_TEXT_M2', 'Textfeld Quadratmeter');
-define('_CO_WGREALESTATE_ATTR_TEXT_CURR', 'Textfeld Euro');
-define('_CO_WGREALESTATE_ATTR_SELECT', 'Auswahlfeld');
-define('_CO_WGREALESTATE_ATTR_SELECT_ITEM', 'Eintrag Auswahlfeld');
-define('_CO_WGREALESTATE_ATTR_TEXT_KWH', 'Textfeld kWh');
+define('_CO_WGREALESTATE_ATTR_TEXTAREA', 'Extended text field');
+define('_CO_WGREALESTATE_ATTR_TEXT_M2', 'Textbox Square Meters');
+define('_CO_WGREALESTATE_ATTR_TEXT_CURR', 'Textfield Euro');
+define('_CO_WGREALESTATE_ATTR_SELECT', 'Selection field');
+define('_CO_WGREALESTATE_ATTR_SELECT_ITEM', 'Entry selection field');
+define('_CO_WGREALESTATE_ATTR_TEXT_KWH', 'Text field kWh');
 
 define('_CO_WGREALESTATE_CURRENCY', 'Euro');
-define('_CO_WGREALESTATE_SQUAREMETER', 'm<sup>2</sup>');
-define('_CO_WGREALESTATE_KWH', 'kWh/(m<sup>2</sup>*a)');
+define('_CO_WGREALESTATE_SQUAREMETER', 'm <sup>2</sup>');
+define('_CO_WGREALESTATE_KWH', 'kWh / (m <sup>2</sup>*a)');
 
-define('_CO_WGREALESTATE_ALL', 'Alle');
-define('_CO_WGREALESTATE_INFO', 'Zusatzinfo');
-define('_CO_WGREALESTATE_USE_NOT', 'Nicht zutreffend');
+define('_CO_WGREALESTATE_ALL', 'All');
+define('_CO_WGREALESTATE_INFO', 'Additional Info');
+define('_CO_WGREALESTATE_USE_NOT', 'Not applicable');
 
-// There aren't
-define('_CO_WGREALESTATE_THEREARENT_OBJCATEGORIES', 'Es gibt derzeit keine Objkategorien');
-define('_CO_WGREALESTATE_THEREARENT_ATTDEFAULTS', 'Es gibt derzeit keine Standard-Attribute');
-define('_CO_WGREALESTATE_THEREARENT_ATTRIBUTES', 'Es gibt derzeit keine Attribute');
-define('_CO_WGREALESTATE_THEREARENT_ATTCATEGORIES', 'Es gibt derzeit keine Attributkategorien');
-define('_CO_WGREALESTATE_THEREARENT_COST_TYPES', 'Es gibt derzeit keine Kostenarten');
-define('_CO_WGREALESTATE_THEREARENT_OBJECTS', 'Es gibt derzeit keine Objekte');
-define('_CO_WGREALESTATE_THEREARENT_COSTS', 'Es gibt derzeit keine Kosten');
-define('_CO_WGREALESTATE_THEREARENT_IMAGES', 'Es gibt derzeit keine Bilder');
-define('_CO_WGREALESTATE_THEREARENT_FILES', 'Es gibt derzeit keine Dateien');
-define('_CO_WGREALESTATE_THEREARENT_SELLERS', 'Es gibt derzeit keine Verkäufer');
+// There are not
+define('_CO_WGREALESTATE_THEREARENT_OBJCATEGORIES', 'There are currently no objategories');
+define('_CO_WGREALESTATE_THEREARENT_ATTDEFAULTS', 'There are currently no default attributes');
+define('_CO_WGREALESTATE_THEREARENT_ATTRIBUTES', 'There are currently no attributes');
+define('_CO_WGREALESTATE_THEREARENT_ATTCATEGORIES', 'There are currently no attribute categories');
+define('_CO_WGREALESTATE_THEREARENT_COST_TYPES', 'There are currently no charge types');
+define('_CO_WGREALESTATE_THEREARENT_OBJECTS', 'There are currently no objects');
+define('_CO_WGREALESTATE_THEREARENT_COSTS', 'There are currently no costs');
+define('_CO_WGREALESTATE_THEREARENT_IMAGES', 'There are currently no images');
+define('_CO_WGREALESTATE_THEREARENT_FILES', 'There are currently no files');
+define('_CO_WGREALESTATE_THEREARENT_SELLERS', 'There are currently no sellers');
