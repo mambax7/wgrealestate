@@ -130,3 +130,5 @@ define('_AM_WGREALESTATE_MAINTAIN_OBJIDS_RES', 'Tabellen auf ungültige Objekt-I
 // ---------------- Admin Others ----------------
 define('_AM_WGREALESTATE_MAINTAINEDBY', ' is maintained by ');
 // ---------------- End ----------------
+
+define('_AM_WGREALESTATE_ATTCATEGORIES', 'Attribute Category');

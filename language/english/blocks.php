@@ -22,11 +22,11 @@
  */
  
 // General 
-define('_MB_WGREALESTATE_READMORE', '...mehr anzeigen');
-define('_MB_WGREALESTATE_DEALTYPE_RENT',  'Zu Vermieten');
-define('_MB_WGREALESTATE_DEALTYPE_SALE',  'Zu Verkaufen'); 
-define('_MB_WGREALESTATE_MOREOBJECTS', 'weitere Objekte anzeigen');
+define('_MB_WGREALESTATE_READMORE', '... show more');
+define('_MB_WGREALESTATE_DEALTYPE_RENT', 'For Rent');
+define('_MB_WGREALESTATE_DEALTYPE_SALE', 'For Sale');
+define('_MB_WGREALESTATE_MOREOBJECTS', 'show more objects');
 // Admin Edit
-define('_MB_WGREALESTATE_DISPLAY', 'How Many Tables to Display');
-define('_MB_WGREALESTATE_TITLE_LENGTH', 'Title Length');
+define('_ MB_WGREALESTATE_DISPLAY', 'How Many Tables to Display');
+define('_ MB_WGREALESTATE_TITLE_LENGTH', 'Title Length');
 // ---------------- End ----------------

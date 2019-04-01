@@ -81,4 +81,6 @@ define('_MA_WGREALESTATE_SUBMITTER', 'Ersteller');
 define('_MA_WGREALESTATE_TYPE_INFO', 'Info');
 // google map
 define('_MA_WGREALESTATE_GM_SEARCHBOX', 'Bitte Suchfilter eingeben');
+
+define('_MA_WGREALESTATE_INDEX', 'Home');
 // ---------------- End ----------------
