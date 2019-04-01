@@ -31,7 +31,6 @@ $map_filter = XoopsRequest::getString('map_filter', '');
 // Define Stylesheet
 $GLOBALS['xoTheme']->addStylesheet( $style, null );
 
-$GLOBALS['xoTheme']->addScript(WGREALESTATE_URL . '/assets/js/sortable.js');
 $GLOBALS['xoTheme']->addScript(WGREALESTATE_URL . '/assets/js/jquery-ui.min.js');
 
 $GLOBALS['xoopsTpl']->assign('wgrealestate_url', WGREALESTATE_URL);
@@ -229,6 +228,9 @@ switch ($op) {
         // rolle auf darf bearbeiten abprüfen!!!!!!!!!!!
 		if ($isModerator) {
 			$GLOBALS['xoopsTpl']->assign('editmode', 'editmode' === $op);
+			if ('editmode' === $op) {
+				$GLOBALS['xoTheme']->addScript(WGREALESTATE_URL . '/assets/js/sortable.js');
+			}
 		}
 		$GLOBALS['xoopsTpl']->assign('defaultmode', 'editmode' !== $op);
         // get oject details
